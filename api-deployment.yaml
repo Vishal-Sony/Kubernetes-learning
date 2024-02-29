@@ -22,7 +22,7 @@ spec:
                 name: synergychat-api-configmap
           volumeMounts:
             - name: synergychat-api-volume
-              mountPath: /persist      
+              mountPath: /persist       
       volumes: 
         - name: synergychat-api-volume
           persistentVolumeClaim:
